@@ -57,7 +57,7 @@ def main():
             if not item_id.isdigit():
                 continue
 
-           
+           #just checking
             conn = sqlite3.connect(item_id)  
             
             
@@ -72,3 +72,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
